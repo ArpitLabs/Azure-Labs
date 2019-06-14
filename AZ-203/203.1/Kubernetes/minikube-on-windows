@@ -1,0 +1,7 @@
+https://kubernetes.io/docs/tasks/tools/install-minikube/
+
+1. Install kubetcl.exe: curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.14.0/bin/windows/amd64/kubectl.exe
+2. Put the exe in your PATH
+3. Run choco install minikube kubernetes-cli
+4. Run minikube start
+If this command returns - machine does not exist, then run minikube delete
